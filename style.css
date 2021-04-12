@@ -1,0 +1,80 @@
+body{
+	width: 90%;
+	margin:auto;
+
+	background: -webkit-linear-gradient(90deg, rgb(185, 222, 255), rgb(20, 63, 90));
+	background: linear-gradient(90deg, rgb(185, 222, 255), rgb(20, 63, 90));
+
+	background-image: url("https://newevolutiondesigns.com/images/freebies/white-wallpaper-24.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:bottom right;
+	font-family: 'Open Sans', sans-serif;
+}
+
+caption{
+caption-side:bottom;
+}
+p{
+
+	letter-spacing: 0.5px;
+	color:#0D0062;
+}
+a{
+
+	font-weight:bold;
+}
+
+a:visited{
+border-bottom: 1px solid #453886;
+color:#EE2000;
+}
+a:hover{
+border-bottom: 1px solid #453886;
+color:#68F73E;
+}
+blockquote{
+	width:50%;
+	margin:auto;
+	font-size:160%;
+	background-color:#EAECEE;
+	border-left:3px dashed;
+	padding-left:30px;
+	padding-top:80px;
+	padding-bottom:80px;
+	font-style: italic;
+}
+.villager,.farmer{
+	font-style: italic;
+}
+.villager{
+	border-left:2px solid;
+	border-color:red;
+	display: block;
+}
+.farmer{
+	border-left:2px solid;
+	border-color:green;
+	display: block;
+}
+header > h1{
+	background-color:yellow;
+}
+.good{
+	text-transform: capitalize;
+	color:green;
+}
+.bad{
+	text-transform: capitalize;
+	color:red;
+}
+tr:nth-child(even){
+	background-color: #cce6ff;
+}
+p:first-of-type{
+	font-weight: bold;
+}
+figure{
+	float: left;
+	margin-right:25px;
+}
